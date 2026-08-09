@@ -1,0 +1,79 @@
+/* Minimal Reset & Typography */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background-color: #ffffff;
+    color: #111111;
+    line-height: 1.6;
+    padding: 60px 20px;
+}
+
+.portfolio-container {
+    max-width: 640px;
+    margin: 0 auto;
+}
+
+/* Header */
+.portfolio-header h1 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+
+.greeting {
+    color: #666666;
+    font-size: 0.95rem;
+    margin-bottom: 4px;
+}
+
+.meta-date {
+    color: #888888;
+    font-size: 0.85rem;
+    margin-bottom: 30px;
+}
+
+/* Sections */
+section {
+    margin-bottom: 35px;
+}
+
+section h2 {
+    font-size: 1.05rem;
+    font-weight: 600;
+    margin-bottom: 12px;
+    color: #222222;
+}
+
+p, li {
+    font-size: 0.98rem;
+    color: #444444;
+}
+
+/* Projects List */
+.projects ul {
+    list-style: none;
+}
+
+.projects li {
+    margin-bottom: 16px;
+}
+
+/* Links */
+a {
+    color: #111111;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+
+a:hover {
+    color: #0066cc;
+}
+
+.projects span {
+    color: #555555;
+}
