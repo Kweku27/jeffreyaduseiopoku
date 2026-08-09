@@ -77,3 +77,12 @@ a:hover {
 .projects span {
     color: #555555;
 }
+
+/* Style for the square profile photo */
+.profile-photo {
+    width: 100px;
+    height: auto;
+    border-radius: 6px;
+    margin-bottom: 16px;
+    display: block;
+}
