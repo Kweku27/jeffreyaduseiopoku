@@ -1,4 +1,4 @@
-/* Minimal Reset & Typography */
+ /* Minimal Reset & Typography */
 * {
     margin: 0;
     padding: 0;
@@ -41,7 +41,50 @@ body {
 .bio p {
     font-size: 0.98rem;
     color: #333333;
-    margin-bottom: 20px; /* This creates that clean space between every statement */
+    margin-bottom: 20px;
+}
+
+/* Square profile photo */
+.profile-photo {
+    width: 100px;
+    height: auto;
+    border-radius: 6px;
+    margin-bottom: 16px;
+    display: block;
+}
+
+/* BLOG SECTION */
+.blog-section {
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid #eeeeee;
+}
+
+.blog-section h2 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 16px;
+    color: #111111;
+}
+
+.blog-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.blog-item {
+    display: flex;
+    align-items: baseline;
+    gap: 16px;
+    font-size: 0.95rem;
+}
+
+.post-date {
+    color: #888888;
+    font-size: 0.85rem;
+    min-width: 70px;
+    font-variant-numeric: tabular-nums;
 }
 
 /* Contact / Socials */
@@ -60,13 +103,4 @@ a {
 
 a:hover {
     color: #0066cc;
-}
-
-/* Square profile photo */
-.profile-photo {
-    width: 100px;
-    height: auto;
-    border-radius: 6px;
-    margin-bottom: 16px;
-    display: block;
 }
